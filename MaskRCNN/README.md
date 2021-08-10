@@ -1,7 +1,7 @@
 # MaskRCNN
 MaskRCNN (He et. al, 2017) is a deep learning model that computes bounding boxes and masks of objects in an image. The git repository for the model can be found [here](https://github.com/matterport/Mask_RCNN)
 
-I obtained the source code from the git repository and trained a new model by annotating 600 images manually (500 training, 100 validation) using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html) (Dutta & Zisserman, 2019). I followed an [online tutorial](https://thebinarynotes.com/how-to-train-mask-r-cnn-on-the-custom-dataset/) to train the model with my own dataset. 
+I obtained the source code from the git repository and trained a new model by annotating 600 images manually (500 training, 100 validation) using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html) (Dutta & Zisserman, 2019). I followed an [online tutorial](https://thebinarynotes.com/how-to-train-mask-r-cnn-on-the-custom-dataset/) to train the model with my own dataset. More information regarding applying the MaskRCNN model can be found in the [zenodo] repository under 'MaskRCNN', including images and annotation json as well as model used for final inference.
 
 ## Language
 MaskRCNN was ran with python 3.7.9
@@ -14,7 +14,7 @@ MaskRCNN was ran with python 3.7.9
 - Pillow
 
 ## Project Structure
-**-Code**: Contains a single script to run Deep Meerkat on Imperial's HPC cluster
+**-Code**: Contains a single script to run Deep Meerkat on Imperial's HPC cluster  
 **-MeerkatInput**: Where input videos are stored  
 **-MeerkatOutput**: Where output files are stroed  
 
