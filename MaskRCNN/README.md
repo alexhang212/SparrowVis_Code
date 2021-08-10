@@ -4,19 +4,22 @@ MaskRCNN (He et. al, 2017) is a deep learning model that computes bounding boxes
 I obtained the source code from the git repository and trained a new model by annotating 600 images manually (500 training, 100 validation) using the [VGG image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html) (Dutta & Zisserman, 2019). I followed an [online tutorial](https://thebinarynotes.com/how-to-train-mask-r-cnn-on-the-custom-dataset/) to train the model with my own dataset. More information regarding applying the MaskRCNN model can be found in the [zenodo] repository under 'MaskRCNN', including images and annotation json as well as model used for final inference.
 
 ## Language
-MaskRCNN was ran with python 3.7.9
+MaskRCNN was ran with python 3.5.6
 
 ## Dependencies
-- Tensorflow 1.15.0
-- Opencv-python 3.4.3.18
-- Kivy 2.0.0
-- Imutils 0.5.4
-- Pillow
+- tensorflow 1.4.1
+- keras 2.1.0
+- scipy 1.4.1
+- numpy 1.18.5
+- cython 0.29.23
+- opencv 3.4.2
+- pillow 7.2.0
+- h5py 2.8.0
+- imgaug 0.2.9
+
 
 ## Project Structure
-**-Code**: Contains a single script to run Deep Meerkat on Imperial's HPC cluster  
-**-MeerkatInput**: Where input videos are stored  
-**-MeerkatOutput**: Where output files are stroed  
+
 
 
 ## Reference
