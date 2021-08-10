@@ -5,7 +5,8 @@ This repository contains all code used for the thesis: **Testing the silver spoo
 Please see README in seperate directories for section specific dependencies.  
 
 ## Project Structure
-Directories and its contents:
+Directories and its contents:  
+
 **- DeepMeerkat**: Code and guidance to run Deep Meerkat  
 **- MaskRCNN**: Code and guidance to run MaskRCNN and obtain masks of sparrows  
 **- Analysis**: Code to run all silver spoon analysis  
