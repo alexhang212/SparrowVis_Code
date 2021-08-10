@@ -14,9 +14,11 @@ Deep Meerkat was ran with python 3.7.9
 - Pillow
 
 ## Project Structure
-
+**-Code**: Contains a single script to run Deep Meerkat  
+**-MeerkatInput**: Where input videos are stored  
+**-MeerkatOutput**: Where output files are stroed  
 
 
 ## Reference
-**Weinstein, B.G.**, 2018. Scene‐specific convolutional neural networks for video‐based biodiversity detection. Methods in Ecology and Evolution 9, 1435–1441.  
-**Imperial Collge Research Computing Service**, n.d.
+- **Weinstein, B.G.**, 2018. Scene‐specific convolutional neural networks for video‐based biodiversity detection. Methods in Ecology and Evolution 9, 1435–1441.  
+- **Imperial Collge Research Computing Service**, n.d.
