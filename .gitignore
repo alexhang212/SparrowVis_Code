@@ -6,5 +6,8 @@
 *.yml
 *.png
 *.mp4
+*.zip
+
+Zenodo/
 
 !.gitkeep
