@@ -1,0 +1,10 @@
+*.jpg
+*.pdf
+*.rda
+*.MP4
+*.tar.gz
+*.yml
+*.png
+*.mp4
+
+!.gitkeep
