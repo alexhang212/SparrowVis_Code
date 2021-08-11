@@ -7,7 +7,8 @@ Raw data files are not included publically and can be provided upon request.
 Deep Meerkat was ran with R 3.6.1
 
 ## Dependencies
-- MCMCglmm 2.32
+- MCMCglmm 2.32  
+- Tidyverse 1.3.0
 
 ## Project Structure
 - **Code**: Contains all code used for analysis  
