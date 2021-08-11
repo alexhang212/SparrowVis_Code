@@ -24,9 +24,9 @@ MaskRCNN was ran with python 3.5.6
 python custom.py train --dataset=../../dataset --weights=coco
 ```
 **- ExtractMasks.py:**: Used for testing, extract masks of birds and output images with highlighted birds  
-![InferenceSample](../Graphics/2.jpg)
+![InferenceSample](../Graphics/2.jpg)  
 **- ExtractMasks_pipeline.py**: Used to extract bird masks for actual pipeline, only crops out birds masks  
-![MaskSample](../Graphics/VN0383_VP7_LM4_20140612_E1_1.png)
+![MaskSample](../Graphics/VN0383_VP7_LM4_20140612_E1_1.png)  
 
 ## Reference
 - **He, K., Gkioxari, G., Dollár, P., Girshick, R.**, 2017. Mask r-cnn, in: Proceedings of the IEEE International Conference on Computer Vision. pp. 2961–2969. 
