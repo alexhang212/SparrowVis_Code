@@ -19,13 +19,13 @@ MaskRCNN was ran with python 3.5.6
 
 
 ## Project Structure
-**- custom directory:** Directory sits within the "samples" directory in the MaskRCNN repository. To train the MaskRCNN using coco as start weight, I ran the following:
+- **custom directory:** Directory sits within the "samples" directory in the MaskRCNN repository. To train the MaskRCNN using coco as start weight, I ran the following:
 ```
 python custom.py train --dataset=../../dataset --weights=coco
 ```
-**- ExtractMasks.py:**: Used for testing, extract masks of birds and output images with highlighted birds  
+- **ExtractMasks.py:**: Used for testing, extract masks of birds and output images with highlighted birds  
 ![InferenceSample](../Graphics/2.jpg)  
-**- ExtractMasks_pipeline.py**: Used to extract bird masks for actual pipeline, only crops out birds masks  
+- **ExtractMasks_pipeline.py**: Used to extract bird masks for actual pipeline, only crops out birds masks  
 ![MaskSample](../Graphics/VN0383_VP7_LM4_20140612_E1_1.png)  
 
 ## Reference

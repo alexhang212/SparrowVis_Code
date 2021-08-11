@@ -18,7 +18,7 @@ Deep Meerkat was ran with R 3.6.1
     - OrganizeMeerkat.R: Processes all Meerkat data into a dataframe
     - MeerkatFreqCorr.R: Test the correlation between Deep Meerkat and manually annotated data
     - AnalysisFigures.R: Contains all figures included in the thesis regarding analysis results  
-**-Jupyters**:Raw model outputs  
+- **Jupyters**:Raw model outputs  
 
 
 ## Reference
