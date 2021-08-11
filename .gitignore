@@ -7,5 +7,6 @@
 *.zip
 
 Zenodo/
+Dropbox/
 
 !.gitkeep

@@ -14,9 +14,9 @@ Deep Meerkat was ran with python 3.7.9
 - Pillow
 
 ## Project Structure
-**-Code**: Contains a single script to run Deep Meerkat on Imperial's HPC cluster
-**-MeerkatInput**: Where input videos are stored  
-**-MeerkatOutput**: Where output files are stored  
+- **Code**: Contains a single script to run Deep Meerkat on Imperial's HPC cluster
+- **MeerkatInput**: Where input videos are stored  
+- **MeerkatOutput**: Where output files are stored  
 
 
 ## Reference
