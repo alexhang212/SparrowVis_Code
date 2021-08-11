@@ -1,5 +1,5 @@
 # Sparrow Vis: A framework to analyse and annotate sparrow provisioning videos
-This repository contains all code used for the thesis: **Testing the silver spoon effect in a passerine using novel deep learniing and computer vision pipeline**. Please read project structure below to access seperate directories for each part of the project.
+This repository contains all code used for the thesis: **Testing the silver spoon effect in a passerine using novel deep learning and computer vision pipeline**. Please read project structure below to access seperate directories for each part of the project.
 
 ## Langugae & Dependencies
 Please see README in seperate directories for section specific dependencies.  
@@ -14,8 +14,10 @@ Directories and its contents:
 - **Pipeline**: Code to process videos from Deep Meerkat Output to events to clips  
 - **A) DeepMeerkat Framework**: Training classification models for Deep Meerkat frames  
 - **B) LRCN Framework**: Training classification models for 7 second clips  
-- **C) MaskRCNN Framework**: Trianing classification models for MaskRCNN masks  
+- **C) MaskRCNN Framework**: Trianing classification models for MaskRCNN masks   
 
+**Deep Learning approaches used**
+![Pipeline](Graphics/Pipeline.png)  
 
 ## Author and Affiliations
 Alex Chan Hoi Hang  
