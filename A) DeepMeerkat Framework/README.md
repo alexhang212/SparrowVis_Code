@@ -1,25 +1,24 @@
-# Analysis
-I tested the silver spoon effect in a population of house sparrows on Lundy Island, UK. I ran bayesian linear mixed effect models using the R package "MCMCglmm" (Hadfield, 2010), on Imperial's research computing service.
+# A) Deep Meerkat Frames
+The first approached I attempted was to use movement frames obtained from deep meerkat to traing a sex and behaviour classification model. A summary of model architectures can be found in [Appendix3](https://github.com/alexhang212/SparrowVis_Code/blob/master/Writeup/Jupyters/Supplementary3.ipynb)
 
-Raw data files are not included publically and can be provided upon request.
 
 ## Language
-Deep Meerkat was ran with R 3.6.1
+R 3.6.1
 
 ## Dependencies
-- MCMCglmm 2.32  
-- Tidyverse 1.3.0
+- tensorflow 1.14.0
+- keras 1.0.8
+- magick 2.6.0
+- abind 1.4.5
+- tidyverse 1.3.0
 
 ## Project Structure
-- **Code**: Contains all code used for analysis  
-    - **DataManip.R**: Data manipulation to create final data sets  
-    - **IndivAnalysis_Cluster**: Individual Analysis that is ran on Imperial College's HPC cluster  
-    - **BroodAnalysis_cluster.R**: Brood level analysis that is ran on Imperial College's HPC cluster  
-    - **RunBroodMCMC.sh/ RunIndivMCMC.sh**: Job submission files
-    - **OrganizeMeerkat.R**: Processes all Meerkat data into a dataframe    
-- **Jupyters**:Raw model outputs  
+- **TrainCNN.R**: Train simple CNN for meerkat images
+- **TrainCNN_VGG19.R**: Train CNN using tranfer learning using VGG19 (Simonyan & Zisserman, 2014) pre-trained weights and architecture
+- **TrainRNN_Sex.R**: Stacking multiple meerkat images and analyzing it using Conv-LSTM2D layer to predict sex
+- **TrainRNN_Sex3D.R**:Stacking multiple meerkat images and analyzing it using Conv3D layer to predict sex
+- **TrainRNN_Behav.R**: Stacking multiple meerkat images and analyzing it using Conv-LSTM2D layer to predict behaviour
 
 
 ## Reference
-- **Hadfield, J.D.**, 2010. MCMC methods for multi-response generalized linear mixed models: the MCMCglmm R package. Journal of statistical software 33, 1–22.
-- **Imperial Collge Research Computing Service**, n.d.
+- **Simonyan, K., Zisserman, A.,** 2014. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556.

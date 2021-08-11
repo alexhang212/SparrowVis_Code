@@ -17,7 +17,7 @@ Directories and its contents:
 - **B) LRCN Framework**: Training classification models for 7 second clips  
 - **C) MaskRCNN Framework**: Trianing classification models for MaskRCNN masks   
 
-**Deep Learning approaches used**
+## Deep Learning approaches used
 ![Pipeline](Graphics/Pipeline.png)  
 
 ## Author and Affiliations
