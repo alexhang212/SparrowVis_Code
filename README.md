@@ -7,8 +7,8 @@ Please see README in seperate directories for section specific dependencies.
 ## Project Structure
 Directories and its contents:  
 
-**- DeepMeerkat**: Code and guidance to run Deep Meerkat  
-**- MaskRCNN**: Code and guidance to run MaskRCNN and obtain masks of sparrows  
+- **DeepMeerkat**: Code and guidance to run Deep Meerkat  
+- **MaskRCNN**: Code and guidance to run MaskRCNN and obtain masks of sparrows  
 **- Analysis**: Code to run all silver spoon analysis  
 **- Writeup:**: Contain figures and supplementary information for writeup  
 **- Pipeline**: Code to process videos from Deep Meerkat Output to events to clips  
