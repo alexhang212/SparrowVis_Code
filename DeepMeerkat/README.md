@@ -3,7 +3,7 @@ Deep Meerkat (Weinstein, 2018) is an opensource software that uses convolutional
 
 I obtained the source code from the git repository and ran the software using command line with Imperial College London's research computing service, by running multiple videos in parallel. Original source code is not included in this repository, please refer to the software's original [repository](https://github.com/bw4sz/DeepMeerkat).
 
-## Langugae
+## Language
 Deep Meerkat was ran with python 3.7.9
 
 ## Dependencies

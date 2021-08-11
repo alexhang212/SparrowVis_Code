@@ -1,7 +1,7 @@
 # Sparrow Vis: A framework to analyse and annotate sparrow provisioning videos
 This repository contains all code used for the thesis: **Testing the silver spoon effect in a passerine using novel deep learning and computer vision pipeline**. Please read project structure below to access seperate directories for each part of the project.
 
-## Langugae & Dependencies
+## Language & Dependencies
 Please see README in seperate directories for section specific dependencies.  
 
 ## Project Structure

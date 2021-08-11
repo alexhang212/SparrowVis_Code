@@ -3,7 +3,7 @@ I tested the silver spoon effect in a population of house sparrows on Lundy Isla
 
 Raw data files are not included publically and can be provided upon request.
 
-## Langugae
+## Language
 Deep Meerkat was ran with R 3.6.1
 
 ## Dependencies

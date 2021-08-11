@@ -1,7 +1,7 @@
 # Writeup
 This directory contains all files used to create documents and figures for final report
 
-## Langugae
+## Language
 R 4.1.0
 
 ## Dependencies

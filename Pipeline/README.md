@@ -3,7 +3,7 @@ This repository contains code to run through whole pipeline, from Deep Meerkat f
 
 All models and Meerkat Ouput files can be found in the dropbox link at the end of the written report.
 
-## Langugae
+## Language
 The pipeline was ran with python 3.7.9 and R 4.1.0
 
 ## Dependencies

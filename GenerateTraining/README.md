@@ -1,21 +1,23 @@
 # Generate Training
+To generate training data for training deep learning models, I tried matching data from manual annotations with the events obtained from Deep Meerkat. 
 
-
-## Langugae
-Deep Meerkat was ran with R 3.6.1
+## Language
+R 4.1.0
 
 ## Dependencies
-- MCMCglmm 2.32  
 - Tidyverse 1.3.0
 
 ## Project Structure
 - **Code**: Contains all code used for analysis  
-    - **DataManip.R**: Data manipulation to create final data sets  
-    - **IndivAnalysis_Cluster**: Individual Analysis that is ran on Imperial College's HPC cluster  
-    - **BroodAnalysis_cluster.R**: Brood level analysis that is ran on Imperial College's HPC cluster  
-    - **RunBroodMCMC.sh/ RunIndivMCMC.sh**: Job submission files
-    - **OrganizeMeerkat.R**: Processes all Meerkat data into a dataframe    
-- **Jupyters**:Raw model outputs  
+    - **ProcessFrameInfo.R**: Process Meerkat Outputs and define them into events
+    - **GenerateTraining**: Matching algorithm to match events from Deep Meerkat to manual annotation
+    - **ProcessVideos.R**: Extract clips from events and build arrays from events for model training
+    - **OrganizeEvents_Vids.R**: Runs script above for every video
+    - **VideoInfo.csv**: Categorization for test and training split for videos between 2014-2015
+
+
+
+ 
 
 
 ## Reference
