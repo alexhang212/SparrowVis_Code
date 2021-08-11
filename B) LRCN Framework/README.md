@@ -20,6 +20,7 @@ R 3.6.1
 - **TrainSexRNN.R**: LRCN framework to train sex classification model
 - **TrainBehav.R**: LRCN framework to train behaviour model
 - **TrainTuner.R**: Functions that trains neural networks with hyper parameters as input, allow easier manual hyperparameter tuning.
+- **ValidationPlots.R**: Validation plots for LRCN models for sex and behaviour classification
 
 ## Reference
 - **Simonyan, K., Zisserman, A.,** 2014. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556.

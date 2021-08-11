@@ -23,7 +23,7 @@ The pipeline was ran with python 3.7.9 and R 4.1.0
 - **OrganizeEvents.R**: Runs script above for every video
 - **ExtractFrames.py**: Extract 7 second clips and frames from each event from raw videos
 - **RunExtractFrames.sh/ RunOrganizeEvents.sh**: Runs event definition and clip extraction in parallel on Imperial's Research Computing service
-
+- **MeerkatReturnRate.R**: Calculate return rate of deep meerkat and undergraduate data
 
 ## Reference
 - **Imperial Collge Research Computing Service**, n.d.
