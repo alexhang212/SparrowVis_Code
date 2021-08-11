@@ -11,13 +11,13 @@ Deep Meerkat was ran with R 3.6.1
 
 ## Project Structure
 - **Code**: Contains all code used for analysis  
-    - DataManip.R: Data manipulation to create final data sets  
-    - IndivAnalysis_Cluster: Individual Analysis that is ran on Imperial College's HPC cluster  
-    - BroodAnalysis_cluster.R: Brood level analysis that is ran on Imperial College's HPC cluster  
-    - RunBroodMCMC.sh/ RunIndivMCMC.sh: Job submission files
-    - OrganizeMeerkat.R: Processes all Meerkat data into a dataframe
-    - MeerkatFreqCorr.R: Test the correlation between Deep Meerkat and manually annotated data
-    - AnalysisFigures.R: Contains all figures included in the thesis regarding analysis results  
+    - **DataManip.R**: Data manipulation to create final data sets  
+    - **IndivAnalysis_Cluster**: Individual Analysis that is ran on Imperial College's HPC cluster  
+    - **BroodAnalysis_cluster.R**: Brood level analysis that is ran on Imperial College's HPC cluster  
+    - **RunBroodMCMC.sh/ RunIndivMCMC.sh**: Job submission files
+    - **OrganizeMeerkat.R**: Processes all Meerkat data into a dataframe
+    - **MeerkatFreqCorr.R**: Test the correlation between Deep Meerkat and manually annotated data
+    - **AnalysisFigures.R**: Contains all figures included in the thesis regarding analysis results  
 - **Jupyters**:Raw model outputs  
 
 
