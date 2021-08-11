@@ -9,12 +9,12 @@ Directories and its contents:
 
 - **DeepMeerkat**: Code and guidance to run Deep Meerkat  
 - **MaskRCNN**: Code and guidance to run MaskRCNN and obtain masks of sparrows  
-**- Analysis**: Code to run all silver spoon analysis  
-**- Writeup:**: Contain figures and supplementary information for writeup  
-**- Pipeline**: Code to process videos from Deep Meerkat Output to events to clips  
-**- A) DeepMeerkat Framework**: Training classification models for Deep Meerkat frames  
-**- B) LRCN Framework**: Training classification models for 7 second clips  
-**- C) MaskRCNN Framework**: Trianing classification models for MaskRCNN masks  
+- **Analysis**: Code to run all silver spoon analysis  
+- **Writeup:**: Contain figures and supplementary information for writeup  
+- **Pipeline**: Code to process videos from Deep Meerkat Output to events to clips  
+- **A) DeepMeerkat Framework**: Training classification models for Deep Meerkat frames  
+- **B) LRCN Framework**: Training classification models for 7 second clips  
+- **C) MaskRCNN Framework**: Trianing classification models for MaskRCNN masks  
 
 
 ## Author and Affiliations
