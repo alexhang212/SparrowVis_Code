@@ -1,5 +1,5 @@
 # A) Deep Meerkat Frames
-The first approached I attempted was to use movement frames obtained from deep meerkat to traing a sex and behaviour classification model. A summary of model architectures can be found in [Appendix3](https://github.com/alexhang212/SparrowVis_Code/blob/master/Writeup/Jupyters/Supplementary3.ipynb)
+The first approached I attempted was to use movement frames obtained from deep meerkat to traing a sex and behaviour classification model. A summary of model architectures can be found in [Appendix 3](https://github.com/alexhang212/SparrowVis_Code/blob/master/Writeup/Jupyters/Supplementary3.ipynb)
 
 
 ## Language
