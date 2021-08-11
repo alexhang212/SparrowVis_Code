@@ -12,5 +12,6 @@ R 4.1.0
 - **Code**: Contains all code files  
     - **MeerkatFreqCorr.R**: Test the correlation between Deep Meerkat and manually annotated data  
     - **AnalysisFigures.R**: Contains all figures included in the thesis regarding analysis results  
+    - **WriteupFigures.R**: Other figures included in the final report
     - **Qualitative Data**: Script used to obtain qualitative data  
 - **Jupyters**:Supplmentary Materials
