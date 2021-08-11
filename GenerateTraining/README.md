@@ -1,7 +1,5 @@
 # Generate Training
-I tested the silver spoon effect in a population of house sparrows on Lundy Island, UK. I ran bayesian linear mixed effect models using the R package "MCMCglmm" (Hadfield, 2010), on Imperial's research computing service.
 
-Raw data files are not included publically and can be provided upon request.
 
 ## Langugae
 Deep Meerkat was ran with R 3.6.1
