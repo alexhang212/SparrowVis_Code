@@ -10,9 +10,9 @@ Deep Meerkat was ran with R 3.6.1
 - MCMCglmm 2.32
 
 ## Project Structure
-**-Code**: Contains all code used for analysis  
-- DataManip.R: Data manipulation to create final data sets  
-- IndivAnalysis_Cluster: Individual Analysis that is ran on Imperial College's HPC cluster  
+**- Code**: Contains all code used for analysis  
+    - DataManip.R: Data manipulation to create final data sets  
+    - IndivAnalysis_Cluster: Individual Analysis that is ran on Imperial College's HPC cluster  
 - BroodAnalysis_cluster.R: Brood level analysis that is ran on Imperial College's HPC cluster  
 - RunBroodMCMC.sh/ RunIndivMCMC.sh: Job submission files
 - OrganizeMeerkat.R: Processes all Meerkat data into a dataframe
