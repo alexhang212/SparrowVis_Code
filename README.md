@@ -7,15 +7,15 @@ Please see README in seperate directories for section specific dependencies.
 ## Project Structure
 Directories and its contents:  
 
-- **DeepMeerkat**: Code and guidance to run Deep Meerkat  
-- **MaskRCNN**: Code and guidance to run MaskRCNN and obtain masks of sparrows  
-- **Analysis**: Code to run all silver spoon analysis  
-- **Writeup:**: Contain figures and supplementary information for writeup  
-- **Pipeline**: Code to process videos from Deep Meerkat Output to events to clips 
-- **GenerateTraining**: Generate training data by matching meerkat events with previously annotated data 
-- **A) DeepMeerkat Framework**: Training classification models for Deep Meerkat frames  
-- **B) LRCN Framework**: Training classification models for 7 second clips  
-- **C) MaskRCNN Framework**: Trianing classification models for MaskRCNN masks   
+- [**DeepMeerkat**](https://github.com/alexhang212/SparrowVis_Code/tree/master/DeepMeerkat): Code and guidance to run Deep Meerkat  
+- [**MaskRCNN**](https://github.com/alexhang212/SparrowVis_Code/tree/master/MaskRCNN): Code and guidance to run MaskRCNN and obtain masks of sparrows  
+- [**Analysis**](https://github.com/alexhang212/SparrowVis_Code/tree/master/Analysis): Code to run all silver spoon analysis  
+- [**Writeup:**](https://github.com/alexhang212/SparrowVis_Code/tree/master/Writeup): Contain figures and supplementary information for writeup  
+- [**Pipeline**](https://github.com/alexhang212/SparrowVis_Code/tree/master/Pipeline): Code to process videos from Deep Meerkat Output to events to clips 
+- [**GenerateTraining**](https://github.com/alexhang212/SparrowVis_Code/tree/master/GenerateTraining): Generate training data by matching meerkat events with previously annotated data 
+- [**A) DeepMeerkat Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/A)%20DeepMeerkat%20Framework): Training classification models for Deep Meerkat frames  
+- [**B) LRCN Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/B)%20LRCN%20Framework): Training classification models for 7 second clips  
+- [**C) MaskRCNN Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/C)%20MaskRCNN%20Franework): Trianing classification models for MaskRCNN masks   
 
 ## Deep Learning approaches used
 ![Pipeline](Graphics/Pipeline.png)  
