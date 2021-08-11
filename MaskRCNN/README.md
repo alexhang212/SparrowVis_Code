@@ -19,7 +19,10 @@ MaskRCNN was ran with python 3.5.6
 
 
 ## Project Structure
-
+**- custom directory:** Directory sits within the "samples" directory in the MaskRCNN repository. To train the MaskRCNN using coco as start weight, I ran the following:
+```
+python custom.py train --dataset=../../dataset --weights=coco
+```
 
 
 ## Reference
