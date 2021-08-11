@@ -13,13 +13,17 @@ The pipeline was ran with python 3.7.9 and R 4.1.0
 - **R**
     - tensorflow 1.14.0
     - keras 1.0.8
-    - 
+    - magick 2.6.0
+    - abind 1.4.5
+    - tidyverse 1.3.0
 
 
 ## Project Structure
-
+- **ProcessFrameInfo.R**: Process Meerkat Outputs and define them into events
+- **OrganizeEvents.R**: Runs script above for every video
+- **ExtractFrames.py**: Extract 7 second clips and frames from each event from raw videos
+- **RunExtractFrames.sh/ RunOrganizeEvents.sh**: Runs event definition and clip extraction in parallel on Imperial's Research Computing service
 
 
 ## Reference
-- **Weinstein, B.G.**, 2018. Scene‐specific convolutional neural networks for video‐based biodiversity detection. Methods in Ecology and Evolution 9, 1435–1441.  
 - **Imperial Collge Research Computing Service**, n.d.
