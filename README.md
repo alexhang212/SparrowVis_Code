@@ -1,6 +1,8 @@
 # Sparrow Vis: A framework to analyse and annotate sparrow provisioning videos
 This repository contains all code used for the thesis: **Testing the silver spoon effect in a passerine using novel deep learning and computer vision pipeline**. Please read project structure below to access seperate directories for each part of the project.
 
+Please request access to the full repository in the [Zenodo repository](https://doi.org/10.5281/zenodo.5239646) to run ceratain parts of the project which may contain sensitive data. The Zenodo repository also contains additional data samples.
+
 ## Language & Dependencies
 Please see README in seperate directories for section specific dependencies.  
 
