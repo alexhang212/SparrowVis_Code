@@ -19,6 +19,21 @@ Deep Meerkat was ran with R 3.6.1
     - **OrganizeMeerkat.R**: Processes all Meerkat data into a dataframe    
 - **Jupyters**:Raw model outputs  
 
+## Running the Analysis
+To run the analysis, make sure you downloaded the full repository from Zenodo.
+
+First, run the following to convert raw data files into data frame for model fitting:
+```
+Rscript DataManip.R
+```
+
+Then run the model using:
+```
+Rscript BroodAnalysis_cluster.R
+Rscript IndivAnalysis_Cluster.R
+```
+Since the analysis is done on Imperial's research computing service to run in parallel, a global variable must be supplied for the models to run. Alternatively, the "iter" argument within the scripts can be modified to run on a local machine
+
 
 ## Reference
 - **Hadfield, J.D.**, 2010. MCMC methods for multi-response generalized linear mixed models: the MCMCglmm R package. Journal of statistical software 33, 1–22.
