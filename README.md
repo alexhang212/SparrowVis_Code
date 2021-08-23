@@ -15,7 +15,7 @@ Directories and its contents:
 - [**GenerateTraining**](https://github.com/alexhang212/SparrowVis_Code/tree/master/GenerateTraining): Generate training data by matching meerkat events with previously annotated data 
 - [**A) DeepMeerkat Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/A)%20DeepMeerkat%20Framework): Training classification models for Deep Meerkat frames  
 - [**B) LRCN Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/B)%20LRCN%20Framework): Training classification models for 7 second clips  
-- [**C) MaskRCNN Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/C)%20MaskRCNN%20Franework): Trianing classification models for MaskRCNN masks   
+- [**C) MaskRCNN Framework**][https://github.com/alexhang212/SparrowVis_Code/tree/master/C)%20MaskRCNN%20Franework]: Trianing classification models for MaskRCNN masks   
 
 ## Deep Learning approaches used
 ![Pipeline](Graphics/Pipeline.png)  
