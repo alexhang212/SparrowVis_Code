@@ -13,9 +13,9 @@ Directories and its contents:
 - [**Writeup:**](https://github.com/alexhang212/SparrowVis_Code/tree/master/Writeup): Contain figures and supplementary information for writeup  
 - [**Pipeline**](https://github.com/alexhang212/SparrowVis_Code/tree/master/Pipeline): Code to process videos from Deep Meerkat Output to events to clips 
 - [**GenerateTraining**](https://github.com/alexhang212/SparrowVis_Code/tree/master/GenerateTraining): Generate training data by matching meerkat events with previously annotated data 
-- [**A) DeepMeerkat Framework**][1]: Training classification models for Deep Meerkat frames  
-- [**B) LRCN Framework**][2]: Training classification models for 7 second clips  
-- [**C) MaskRCNN Framework**][3]: Trianing classification models for MaskRCNN masks   
+- [**A) DeepMeerkat Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/A\)%20DeepMeerkat%20Framework): Training classification models for Deep Meerkat frames  
+- [**B) LRCN Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/B\)%20LRCN%20Framework): Training classification models for 7 second clips  
+- [**C) MaskRCNN Framework**](https://github.com/alexhang212/SparrowVis_Code/tree/master/C\)%20MaskRCNN%20Franework): Trianing classification models for MaskRCNN masks   
 
 ## Deep Learning approaches used
 ![Pipeline](Graphics/Pipeline.png)  
@@ -27,8 +27,3 @@ MRes Computational Methods in Ecology and Evolution
 Department of Life Sciences  
 Imperial College Silwood Park  
 UK. SL5 7PY  
-
-
-[1]: https://github.com/alexhang212/SparrowVis_Code/tree/master/A)%20DeepMeerkat%20Framework
-[2]: https://github.com/alexhang212/SparrowVis_Code/tree/master/B)%20LRCN%20Framework
-[3]: https://github.com/alexhang212/SparrowVis_Code/tree/master/C)%20MaskRCNN%20Franework
