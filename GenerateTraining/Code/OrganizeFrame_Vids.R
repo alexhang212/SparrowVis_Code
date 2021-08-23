@@ -42,7 +42,7 @@ for(i in IndexVect){
   Process_framecsv(FileName)
   CodefrmExcel(FileName,VidCode)
   
-  data <- read.csv(paste("../MeerkatOutput2013/",FileName,"/","FramesShortCoded.csv", sep=""))
+  data <- read.csv(paste("../MeerkatOutput/",FileName,"/","FramesShortCoded.csv", sep=""))
   # data <- na.omit(data,data$EventDes)
   
   if(nrow(data) >0){ #check if all data was removed

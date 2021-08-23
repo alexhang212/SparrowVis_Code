@@ -14,10 +14,17 @@ R 4.1.0
     - **GenerateTraining**: Matching algorithm to match events from Deep Meerkat to manual annotation
     - **ProcessImages.R**: Process images into arrays
     - **ProcessVideos.R**: Extract clips from events and build arrays from events for model training
-    - **OrganizeEvents_Vids.R**: Runs script above for every video
+    - **OrganizeEvents_Vids.R**: Runs all scripts above for every video
     - **VideoInfo.csv**: Categorization for test and training split for videos between 2014-2015
 
+## Run Project
+To run the scripts and generate training data from Meerkat Outputs, make sure you downloaded the full repository from Zenodo, then run the following in the Code directory:
 
+Make sure the raw video of the same video name is in the "RawVideos" directory.
+```
+Rscript OrganizeEvents_Vids.R
+```
+This will loop through every video in the "MeerkatOutput" directory, then match the events defined by my pipeline to original annotations. 7 second clips of the events will also be created in the "TrainingClips" directory, together with numerical R arrays in the "ClipArrays" directory.
 
 ## Reference
 - **Hadfield, J.D.**, 2010. MCMC methods for multi-response generalized linear mixed models: the MCMCglmm R package. Journal of statistical software 33, 1–22.
