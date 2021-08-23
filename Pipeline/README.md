@@ -37,6 +37,7 @@ To get output clips and frames, run:
 ```
 python ExtractFrames.py
 ```
+7 second clips for events and seperate frames for the clips will then be saved in the "Clips" and "ClipFrames" directory
 
 ## Reference
 - **Imperial Collge Research Computing Service**, n.d.
