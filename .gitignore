@@ -6,7 +6,7 @@
 *.mp4
 *.zip
 
-Zenodo/
-Dropbox/
+SampleVideo/
+Models/
 
 !.gitkeep
